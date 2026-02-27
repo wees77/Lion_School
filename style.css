@@ -1,0 +1,150 @@
+:root {
+    --cor-primaria: #3347B0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER*/
+header {
+    display: flex;
+    background-color: var(--cor-primaria);
+}
+
+.logo {
+    padding: 14px;
+    padding-left: 96px;
+}
+
+.sair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1220px;
+    gap: 12px;
+}
+
+.sair span {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+/* MAIN*/
+main {
+    flex: 1;
+}
+
+.main-content {
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.enunciado {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    width: 500px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 57.38px;
+    color: #353535;
+    gap: 100px;
+}
+
+.var {
+    color: var(--cor-primaria);
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 57.38px;
+}
+
+.estudante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cursos .ds,
+.cursos .redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    background-color: var(--cor-primaria);
+    color: #ffffff;
+    width: 400px;
+    height: 200px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: var(--cor-primaria);
+    color: #ffffff;
+}
+.footer-content {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    padding-left: 96px;
+    gap: 10px;
+}
+
+.contatos .telefone,
+.contatos .e-mail,
+.contatos .mapa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contatos img {
+    height: 25px;
+    width: 25px;
+}
+.contatos span {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.copy {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+    padding-right: 96px;
+}
